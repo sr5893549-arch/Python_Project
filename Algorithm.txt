@@ -1,0 +1,25 @@
+Password Tool – Algorithm
+
+Main Loop
+Show menu: 1-Generate, 2-Check, 3-Exit
+Repeat forever until 3 is chosen.
+
+1. Generate Password
+Start empty string
+Add 1 random lowercase, 1 uppercase, 1 digit, 1 symbol (!@#$%^&*)
+Add 8 more random chars from all types
+Shuffle the 12 characters
+Print the password
+
+2. Check Strength
+Take password input
+Score = 0
++1 if length ≥ 8
++1 if length ≥ 12
++1 if has lowercase, uppercase, digit, symbol
+Score ≥ 5 → Strong
+Score = 4 → Good
+Score < 4 → Weak
+
+3. Exit
+Print "Bye!" and stop.
