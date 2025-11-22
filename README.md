@@ -7,6 +7,7 @@ A lightweight, beginner-friendly Python script that helps you:
 2. Guarantees at least one lowercase, uppercase, number, and special character
 3. Randomly shuffles the result for better entropy
 4. Check the strength of any password you enter
+   
 Features:
 1. Menu-driven interface
 2. Fast and no external dependencies (only uses built-in random)
